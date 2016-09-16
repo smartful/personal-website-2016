@@ -1,0 +1,682 @@
+/*Définition des polices personnalisées*/
+
+@font-face 
+{
+    font-family: 'economicaregular';
+    src: url('polices/economica-regular-otf-webfont.eot');
+    src: url('polices/economica-regular-otf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/economica-regular-otf-webfont.woff') format('woff'),
+         url('polices/economica-regular-otf-webfont.ttf') format('truetype'),
+         url('polices/economica-regular-otf-webfont.svg#economicaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'metroregular';
+    src: url('polices/metro-webfont.eot');
+    src: url('polices/metro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/metro-webfont.woff') format('woff'),
+         url('polices/metro-webfont.ttf') format('truetype'),
+         url('polices/metro-webfont.svg#metroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'michromaregular';
+    src: url('polices/michroma-webfont.eot');
+    src: url('polices/michroma-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/michroma-webfont.woff') format('woff'),
+         url('polices/michroma-webfont.ttf') format('truetype'),
+         url('polices/michroma-webfont.svg#michromaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Eléments principaux de la page */
+
+body
+{
+	background: url("images_cv/fond_gris.jpg");
+	font-family: "Trebuchet MS", arial, sans-serif;
+	color: rgb(200,200,200);
+}
+
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+
+section h1
+{
+	font-family: michromaregular, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+}
+
+section h2
+{
+	font-family: michromaregular, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	
+}
+
+footer h1, nav a
+{
+	font-family: economicaregular, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* header */
+
+header
+{
+	background: url("images_cv/separateur_bleu_gris.png") repeat-x bottom;
+}
+
+#titre_principal
+{
+	display: inline;
+    zoom: 1;
+}
+
+header h1
+{
+	font-family: michromaregular, arial, serif;
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+header h1 a
+{
+	text-decoration: none;
+	color: rgb(200,200,200);
+}
+
+#logo, header h1
+{
+	display: inline;
+    zoom: 1;
+	margin-bottom: 0px;
+}
+
+header h2
+{
+	font-family: economicaregular, serif;
+	font-size: 1.3em;
+	margin-top: 0px;
+	font-weight: normal;
+}
+
+/* Navigation */
+nav
+{
+	display: inline;
+    zoom: 1;
+	width: 740px;
+	text-align: right;
+	margin-left: 150px;
+}
+
+#ergo nav
+{
+	text-align: left;
+	font-size: 0.8em;
+	margin-left: 0;
+}
+
+#ergo2 nav
+{
+	text-align: left;
+	font-size: 0.8em;
+	margin-left: 0;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline;
+    zoom: 1;
+	margin-right: 15px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: rgb(150,150,150);
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: rgb(0,0,76);
+	border-bottom: 3px solid rgb(0,0,76);
+}
+
+/* bannière */
+
+#banniere_image
+{
+	margin-top: 15px;
+	height: 200px;
+	border-radius: 5px;
+	background: url("images_cv/ia.jpg") no-repeat;
+	position: relative;
+	box-shadow: 0px 4px 4px rgb(28,26,25);
+	margin-bottom: 25px;
+}
+
+#banniere_description
+{
+	position: absolute;
+	top: 0;
+	border-radius: 5px 5px 0px 0px;
+	width:99.6%;
+	height: 15px;
+	padding-bottom: 10px;
+	padding-left: 4px;
+	background-color: rgb(24,24,24); /* Pour les anciens navigateurs */
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	font-size: 0.8em;
+}
+
+/* Le corps */
+
+/* Le corps - présentation */
+
+#presentation, aside
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: justify;
+}
+
+#presentation
+{
+	width: 625px;
+}
+
+.ico_categorie
+{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+#presentation p
+{
+	font-size: 0.8em;
+}
+
+#presentation ul
+{
+	font-size: 0.8em;
+	font-family: "Trebuchet MS", arial, sans-serif;
+}
+
+#presentation div
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: justify;
+	width: 270px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	padding: 10px;
+	color: rgb(200,200,200);
+	margin-right: 20px;
+}
+
+#presentation div p
+{
+	background-color: rgb(14,14,14); /*Pour les vieux navigateurs */
+	background-color: rgba(14,14,14,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 3px ridge rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+aside
+{
+	position: relative;
+	width: 235px;
+	background-color: rgb(14,14,14);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(200,200,200);
+	font-size: 0.9em;
+	margin-right: 15px;
+}
+
+aside h2
+{
+	font-size: 0.9em;
+}
+
+#fleche_bulle
+{
+	position: absolute;
+	top: 100px;
+	left: 254px;
+}
+
+#photo_auteur
+{
+	text-align: center;
+}
+
+#photo_auteur img
+{
+	border: 1px solid rgb(24,24,24);
+}
+
+aside img
+{
+	margin-right: 5px;
+}
+
+aside p:last-child
+{
+    text-align: center;
+}
+
+/* Le corps - formation et expériences */
+#formation, #experiences
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: justify;
+	width: 400px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	padding: 10px;
+}
+
+#formation
+{
+	color: rgb(200,200,200);
+	margin-right: 55px;
+}
+
+#formation p
+{
+	background-color: rgb(14,14,54); /*Pour les vieux navigateurs */
+	background-color: rgba(14,14,54,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#formation p img
+{
+	border: 3px ridge rgb(200,200,200);
+}
+
+#experiences
+{
+	position: relative;
+}
+
+#experiences p
+{
+	background-color: rgb(54,14,14);/*Pour les vieux navigateurs */
+	background-color: rgba(54,14,14,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#experiences p img
+{
+	border: 3px ridge rgb(200,200,200);
+}
+
+/* Le corps - compétences */
+#competences div
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: justify;
+	width: 270px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	padding: 10px;
+	color: rgb(200,200,200);
+	margin-right: 5px;
+}
+
+#competences div p
+{
+	background-color: rgb(14,54,14); /*Pour les vieux navigateurs */
+	background-color: rgba(14,54,14,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+
+/* Le corps - hobbies */
+#hobbies div
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: justify;
+	width: 300px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	padding: 10px;
+	color: rgb(200,200,200);
+	margin-right: 10px;
+}
+
+#hobbies div p
+{
+	background-color: rgb(14,54,54); /*Pour les vieux navigateurs */
+	background-color: rgba(14,54,54,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 1px solid rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* Page Création - poèmes */
+
+#poemes div
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: justify;
+	width: 350px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	padding: 10px;
+	color: rgb(200,200,200);
+	margin-right: 20px;
+}
+
+#poemes div p
+{
+	background-color: rgb(14,14,14); /*Pour les vieux navigateurs */
+	background-color: rgba(14,14,14,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 3px ridge rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* Page Création - articles */
+
+.articles, .image_droite,.image_gauche
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: middle;
+	text-align: justify;
+}
+
+.articles
+{
+	width: 625px;
+}
+
+.articles a
+{
+	color: rgb(150,150,150);
+	text-decoration: none;
+}
+
+.articles a:hover
+{
+	color: rgb(0,0,76);
+}
+
+.image_droite
+{
+	float: right;
+	position: relative;
+	width: 235px;
+	background-color: rgb(14,14,14);
+	border: 1px solid rgb(24,24,24);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(200,200,200);
+	font-size: 0.9em;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.image_gauche
+{
+	float: left;
+	position: relative;
+	width: 235px;
+	background-color: rgb(14,14,14);
+	border: 1px solid rgb(24,24,24);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(200,200,200);
+	font-size: 0.9em;
+	text-align: center;
+	margin-right: 10px;
+}
+
+/* Page Création - sites */
+
+#sites div
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	text-align: center;
+	width: 900px;
+	border-radius: 5px;
+	font-size: 0.9em;
+	padding: 10px;
+	color: rgb(200,200,200);
+	margin: auto;
+}
+
+#sites div p
+{
+	background-color: rgb(14,14,24); /*Pour les vieux navigateurs */
+	background-color: rgba(14,14,24,0.2);
+	box-shadow: 0px 2px 4px rgb(28,26,25);
+	border: 3px ridge rgb(200,200,200);
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* footer */
+
+footer
+{
+	background: url("images_cv/separateur_bleu_gris.png") repeat-x top;
+	padding-top: 25px;
+	margin-top: 10px;
+}
+
+footer p, footer ul
+{
+	font-size: 0.8em;
+}
+
+footer h1
+{
+	font-size: 1.1em;
+}
+
+#legal, #ma_citation, #mon_reseau
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+}
+
+#legal
+{
+	width: 28%;
+}
+
+#ma_citation
+{
+	width: 35%;
+}
+
+#mon_reseau
+{
+	width: 31%;
+}
+
+#mon_reseau ul
+{
+	display: inline;
+    zoom: 1;
+	vertical-align: top;
+	margin-top: 0;
+	width: 48%;
+	list-style-image: url("images_cv/ico_liensexterne.png");
+	padding-left: 2px;
+}
+
+#mon_reseau a
+{
+	text-decoration: none;
+	color: rgb(0,0,76);
+}
+
+/* Adaptation aux différents type d'écran */
+
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+	
+	header
+	{
+		margin-bottom : 10px;
+	}
+	
+	nav
+	{
+		width: auto;
+		text-align: left;
+	}
+	
+	nav li
+	{
+		display: block;
+		padding-left: 4px;
+	}
+	
+	nav a
+	{
+		font-size: 1.1em;
+	}
+	
+	nav a:hover
+	{
+		border-bottom: 0;
+	}
+	
+	#banniere_image
+	{
+		display: none;
+	}
+	
+	#industrie_schema
+	{
+		display: none;
+	}
+	
+	#presentation, aside
+       {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+	
+	#poemes
+       {
+        width: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+	
+	#formation, #experiences
+	{
+		width: auto;
+        display: block;
+        margin-bottom: 15px;
+	}
+	
+	.articles, .image_droite,.image_gauche
+	{
+		width: auto;
+        display: block;
+        margin-bottom: 15px;
+	}
+	
+	#sites div
+	{
+		width: auto;
+        display: block;
+        margin-bottom: 15px;
+	}
+	
+	iframe
+	{
+		display: none;
+	}
+    
+    #fleche_bulle
+       {
+        display: none;
+    }
+    
+    #photo_auteur img
+       {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+	
+	#legal, #ma_citation
+	{
+		width: auto;
+	}
+    
+    aside p:last-child
+       {
+        text-align: center;
+    }
+}
